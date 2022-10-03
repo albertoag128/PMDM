@@ -106,12 +106,14 @@
 
         <ImageView
             app:tint="@color/black"
-            android:layout_width="26dp"
+            android:layout_width="28dp"
+            android:layout_marginTop="2dp"
             android:layout_height="wrap_content"
             android:src="@drawable/share"
             />
 
         <ImageView
+            android:scaleType="centerCrop"
             app:tint="@color/red"
             android:layout_marginLeft="10dp"
             android:layout_width="28dp"
