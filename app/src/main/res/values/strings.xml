@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">PMDM</string>
     <string name="label_app">ETIQUETA</string>
+
+    <string name="title">Regular fries (sauces not included)</string>
+    <string name="description">A regular portion of our best fries mixed with salt and pepper.</string>
+    <string name="price">$1,99</string>
 </resources>
