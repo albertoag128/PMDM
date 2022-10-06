@@ -5,4 +5,13 @@
     <string name="title">Regular fries (sauces not included)</string>
     <string name="description">A regular portion of our best fries mixed with salt and pepper.</string>
     <string name="price">$1,99</string>
+
+    <string name="premio">1º 🏆 </string>
+    <string name="titulo_tapa">Albóndigas de faisán en escabeche con caldo clarificado de gambón salvaje</string>
+    <string name="nombre_local">Vermuteria el Atrio</string>
+    <string name="total">Total: 0 Ptos.</string>
+    <string name="media">Media: 0.0</string>
+
+
+
 </resources>

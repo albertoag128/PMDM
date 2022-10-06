@@ -13,16 +13,8 @@
         android:theme="@style/Theme.PMDM"
         tools:targetApi="31">
 
-        <!--<activity
-            android:name=".presentation.ex02.Ut01ex02activity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>-->
-
         <activity
-            android:name=".presentation.ex03.Ut01Ex03Activity"
+            android:name=".presentation.ex04.Ut01Ex04Activity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
@@ -34,6 +26,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--
+        <activity
+            android:name=".presentation.ex02.Ut01ex02activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".presentation.ex03.Ut01Ex03Activity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        -->
+
     </application>
 
 </manifest>
