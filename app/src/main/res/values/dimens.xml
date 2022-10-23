@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_image">128dp</dimen>
+
+
+    <dimen name="image_height">180dp</dimen>
+    <dimen name="font_text">22sp</dimen>
+    <dimen name="price_margin">14dp</dimen>
+    <dimen name="price_padding">5dp</dimen>
+
+    <dimen name="rel_padding">20dp</dimen>
+    <dimen name="titulo_tapa_text_size">18sp</dimen>
+    <dimen name="general_margin_top">8dp</dimen>
+    <dimen name="general_padding">10dp</dimen>
+    <dimen name="information_height">22dp</dimen>
+    <dimen name="place_text_size">16sp</dimen>
+    <dimen name="data_text_size">14sp</dimen>
+    <dimen name="media_margin_left">10dp</dimen>
+    <dimen name="star_margin_left">4dp</dimen>
+    <dimen name="star_width">20dp</dimen>
+    <dimen name="icons_dim">20dp</dimen>
+    <dimen name="share_margin">16dp</dimen>
+
+
+
+</resources>

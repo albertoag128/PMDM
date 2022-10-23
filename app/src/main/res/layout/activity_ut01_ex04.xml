@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey"
+    android:orientation="vertical"
+    android:padding="@dimen/general_padding"
+    tools:context=".presentation.ex04.Ut01Ex04Activity">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height">
+
+        <ImageView
+            android:id="@+id/tapaimagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tapasoulkitchen"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/premio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightgrey80"
+            android:layout_margin="@dimen/price_margin"
+            android:padding="@dimen/price_padding"
+            android:text="@string/premio"
+            android:textSize="@dimen/font_text"
+            android:textColor="@color/red"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/rel_padding">
+
+        <TextView
+            android:id="@+id/pack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:text="@string/titulo_tapa"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titulo_tapa_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recogida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pack"
+            android:layout_marginTop="@dimen/general_margin_top"
+            android:text="@string/nombre_local"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/place_text_size" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/information_height"
+            android:layout_below="@+id/recogida"
+            android:layout_marginTop="@dimen/general_margin_top">
+
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:text="@string/total"
+                android:textSize="@dimen/data_text_size" />
+
+            <TextView
+                android:id="@+id/media"
+                android:layout_width="wrap_content"
+                android:textColor="@color/grey"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/media_margin_left"
+                android:layout_toRightOf="@+id/total"
+                android:text="@string/media"
+                android:textSize="@dimen/data_text_size"  />
+
+            <ImageView
+                android:id="@+id/estrella"
+                android:layout_marginLeft="@dimen/star_margin_left"
+                android:layout_width="@dimen/star_width"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/media"
+                android:src="@drawable/empty3"
+                app:tint="@color/golden" />
+
+            <ImageView
+                android:src="@drawable/share"
+                android:id="@+id/share"
+                android:layout_toLeftOf="@id/like"
+                android:layout_width="@dimen/icons_dim"
+                android:layout_marginRight="@dimen/share_margin"
+                android:layout_height="@dimen/icons_dim"
+                app:tint="@color/red" />
+
+
+            <ImageView
+                android:src="@drawable/fav"
+                android:id="@+id/like"
+                android:layout_alignParentEnd="true"
+                android:layout_width="@dimen/icons_dim"
+                android:layout_height="@dimen/icons_dim"
+                app:tint="@color/red" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
